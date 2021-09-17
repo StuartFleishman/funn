@@ -1,14 +1,21 @@
-import logo from './logo.svg';
+import { lazy, Suspense } from 'react';
 import './App.css';
-import {firebaseApp} from './firebase'
+import ReactLoader from './components/loader';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+const Login = lazy(() => import('./pages/Login'));
+
+
 function App() {
-  console.log(firebaseApp)
+  
   return (
-    <div className="App">
-      <div className="container bg-pink-700 h-8 mx-auto">
-        <h1>Hellow World</h1>
-      </div>
-    </div>
+    <Router>
+    <Suspense fallback={<ReactLoader />}>
+      <Switch>
+        <Route path={'/login'} component={Login} />
+      </Switch>
+    </Suspense>
+  </Router>
   );
 }
 
