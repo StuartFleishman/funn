@@ -27,14 +27,14 @@ export default function Login() {
   };
 
   useEffect(() => {
-    document.title = 'Login - Instagram';
+    document.title = 'Login - Funn';
   }, []);
 
   return (
     <div className="container flex mx-auto max-w-screen-md items-center h-screen">
       <div className="flex w-3/5">
         <img 
-        src="https://images.unsplash.com/photo-1629893171865-a6ddbb7cf3bb?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE4MnxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" 
+        src="https://images.unsplash.com/photo-1574509227230-7a1213fd5e46?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDc4fHFQWXNEenZKT1ljfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" 
         alt="iPhone with Instagram app" />
       </div>
       <div className="flex flex-col w-2/5">
