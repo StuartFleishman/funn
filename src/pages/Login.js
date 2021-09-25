@@ -1,4 +1,4 @@
-import { useState, useContext, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
 
@@ -67,7 +67,7 @@ export default function Login() {
         </div>
         <div className="flex justify-center items-center flex-col w-full bg-white p-4 rounded border-4 border-gray-primary">
           <p className="text-sm">
-            Don't have an account?{` `}
+            Don't have an account?
             <Link to={"/"} className="font-bold text-blue-medium">
               Sign up
             </Link>
