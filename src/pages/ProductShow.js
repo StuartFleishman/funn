@@ -25,7 +25,7 @@ function ProductShow() {
                   
                   </div>
                   <div className="pl-2 leading-none">
-                    4.6 / 5.0 <span className="text-gray-900/40"> (556)</span>
+                    <span className="text-gray-900/40"> </span>
                   </div>
                 </div>
               </div>
