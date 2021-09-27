@@ -8,6 +8,7 @@ import Header from './pages/Header'
 import ProductItems from './pages/ProductItems'
 import SignUp from './pages/SignUp'
 
+
 const Login = lazy(() => import('./pages/Login'));
 
 
@@ -24,6 +25,7 @@ function App() {
         </Route>
         <Route path={'/products'} component={Products} />
         <Route path={'/signup'} component={SignUp} />
+        <Route path={'/p'} component={ProductItems} />
       </Switch>
     </Suspense>
   </Router>
