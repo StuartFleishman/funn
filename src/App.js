@@ -25,7 +25,7 @@ function App() {
         </Route>
         <Route path={'/products'} component={Products} />
         <Route path={'/signup'} component={SignUp} />
-        <Route path={'/p'} component={ProductItems} />
+        <Route path={'/p'} component={SignUp} />
       </Switch>
     </Suspense>
   </Router>

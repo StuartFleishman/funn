@@ -2,6 +2,17 @@ import React from 'react'
 import Product from './Product'
 
 function Hero() {
+
+
+  
+
+
+
+
+
+
+
+
   return (
     <div className="md:flex md:flex-row mt-20">
       <div className="md:w-2/5 flex flex-col justify-center mb-5 items-center">
@@ -15,6 +26,8 @@ function Hero() {
         className="w-full"
         />
       </div>
+
+      
 
      
     </div>
